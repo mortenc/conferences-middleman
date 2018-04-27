@@ -1,5 +1,19 @@
 @import 'normalize';
 
+* {
+   text-rendering: optimizelegibility;
+}
+
+html {
+ //font-size: $base-font-size;
+ -webkit-text-size-adjust: 100%;
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+ font-feature-settings: "kern" 1;
+ font-kerning: normal;
+ overflow-x: hidden;
+}
+
 body {
   background-color: white;
   color: #343A40;
