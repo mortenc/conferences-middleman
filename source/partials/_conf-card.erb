@@ -20,6 +20,6 @@
       <% end %>
     </div>
     <div class="conf-card__price"><%= c.price %></div>
-    <div class="conf-card__tags">#design #tag2 #tag3</div>
+    <div class="conf-card__tags"><% c.tags.each do |tag| %>#<%= tag %> <% end %></div>
   </div>
 <% end %>
