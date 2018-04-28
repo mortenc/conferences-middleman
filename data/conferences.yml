@@ -84,14 +84,36 @@
   tags:
     - ux
     - research
-- title: 2019 conf
-  url: http://canux.io/
-  start_date: 2019-11-01
-  end_date: 2019-11-04
-  location: The year 2019
-  price: TBD
-  blurb: A four day showcase of modern experiebce design trends, shaped as Canada's premier annual UX event.
+- title: Front Conference 2018
+  url: https://www.frontutah.com/conference/
+  start_date: 2019-05-31
+  end_date: 2019-06-01
+  location: Salt Lake City, UT, USA
+  price: $250 – $700
+  blurb: UX & Product Management Case Study Conference
   image: img-test.png
   tags:
     - ux
-    - research
+    - product management
+- title: Enterprise UX
+  url: https://rosenfeldmedia.com/eux2018/
+  start_date: 2018-06-13
+  end_date: 2018-06-15
+  location: San Francisco, CA, USA
+  price: $1725 - $2395
+  blurb: Enterprise UX is dedicated to delivering useful, delightful, and humane experiences to people who work for and in enterprises.
+  image: img-test.png
+  tags:
+    - ux
+    - ux strategy
+- title: Design Matters
+  url: https://designmatters.io/
+  start_date: 2019-09-26
+  end_date: 2019-09-27
+  location: Copenhagen, DEN
+  price: €900 / $1115 / DKK6700
+  blurb: Two days of exploring digital design - now and in the future.
+  image: img-test.png
+  tags:
+    - ux
+    - digital design
