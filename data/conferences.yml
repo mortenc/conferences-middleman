@@ -1,17 +1,17 @@
 - title: Awwwards Conference
-  start_date: 2018/05/10
-  end_date: 2018/05/11
+  start_date: 2018-05-10
+  end_date: 2018-05-11
   location: San Francisco, USA
   price: $500-$560
-  blurb: Two exciting days with some of the most influential speakers of the industry, who inspire, teach, and guide us as we face the many challenges and opportunities which lie ahead in the future of the web.
+  blurb: Obsessive, passionate, scrupulous and meticulous; always creative; always brave.
   image: img-test.png
   tags:
     - design
     - motion
     - ux
 - title: The Next Web Conference
-  start_date: 2018/05/24
-  end_date: 2018/05/25
+  start_date: 2018-05-24
+  end_date: 2018-05-25
   location: Amsterdam, NL
   price: $500-$560
   blurb: Predict, discuss and invent the future. Join 15,000 digital minds to shape what's next for your business.
@@ -21,8 +21,8 @@
     - ux
 - title: UX London
   url: https://2018.uxlondon.com/
-  start_date: 2018/05/23
-  end_date: 2018/05/25
+  start_date: 2018-05-23
+  end_date: 2018-05-25
   location: London, UK
   price: £495-£1,175
   blurb: UX London brings together the world’s leading design experts and practitioners.
@@ -32,8 +32,8 @@
     - ux
 - title: OFF Barcelona
   url: http://offf.barcelona/
-  start_date: 2018/05/24
-  end_date: 2018/05/26
+  start_date: 2018-05-24
+  end_date: 2018-05-26
   location: Barcelona, ES
   price: £495-£1,175
   blurb: A community inviting all those who are eager to learn to participate and get inspired in a three-day journey of conferences, workshops, activities and performances.
@@ -44,8 +44,8 @@
     - ux
 - title: Pixel Pioneers Bristol 2018
   url: https://pixelpioneers.co/events/bristol-2018
-  start_date: 2018/06/08
-  end_date: 2018/06/08
+  start_date: 2018-06-08
+  end_date: 2018-06-08
   location: Bristol, UK
   price: £125-£349
   blurb: A one-day conference of practical and inspiring talks, featuring eight world-class speakers.
@@ -55,8 +55,8 @@
     - ux
 - title: User Research London
   url: https://www.userresearchlondon.com/
-  start_date: 2018/06/21
-  end_date: 2018/06/22
+  start_date: 2018-06-21
+  end_date: 2018-06-22
   location: London, UK
   price: £200
   blurb: Bringing together some of the world's best user research speakers to begin discussions on how we can further our progression of user research.
@@ -65,8 +65,8 @@
     - research
 - title: EPIC2018
   url: https://2018.epicpeople.org/
-  start_date: 2018/10/09
-  end_date: 2018/10/12
+  start_date: 2018-10-09
+  end_date: 2018-10-12
   location: Honolulu, Hawai‘i
   price: TBD
   blurb: The premier international gathering on ethnography in business.
@@ -75,8 +75,8 @@
     - research
 - title: CanUX
   url: http://canux.io/
-  start_date: 2018/11/01
-  end_date: 2018/11/04
+  start_date: 2018-11-01
+  end_date: 2018-11-04
   location: Ottawa, CA
   price: TBD
   blurb: A four day showcase of modern experiebce design trends, shaped as Canada's premier annual UX event.
