@@ -7,34 +7,13 @@ title: UX Confs
 </h1>
 
 <ul class="conf-list">
-  <% data.conferences.each do |c| %>
-    <li>
-      <% link_to(c.url, class: "conf-card") do %>
-        <%= image_tag c.image, class: "conf-card__image" %>
-        <div class="conf-card__desc">
-          <h2 class="conf-card__title"><%= c.title %></h2>
-          <p class="conf-card__blurb"><%= c.blurb %></p>
-        </div>
-        <div class="conf-card__meta">
-          <div class="conf-card__location"><%= c.location %></div>
-          <div class="conf-card__dates">
-            <!-- Check if it's one or multi-day conference, if one-day only show date once -->
-            <% if c.end_date && c.end_date != c.start_date %>
-              <!-- If the month is the same, only show it once ('May 14-15, 2018') -->
-              <% if c.start_date.strftime('%B') == c.end_date.strftime('%B') %>
-                <%= c.start_date.strftime('%B %e') %> - <%= c.end_date.strftime('%e, %Y') %>
-              <% else %>
-                <%= c.start_date.strftime('%B %e') %> - <%= c.end_date.strftime('%B %e, %Y') %>
-              <% end %>
-            <% else %>
-              <%= c.start_date.strftime('%B %e, %Y') %>
-            <% end %>
-          </div>
-          <div class="conf-card__price"><%= c.price %></div>
-          <div class="conf-card__tags">#design #tag2 #tag3</div>
-        </div>
+  <% data.conferences.group_by {|c| c.start_date.strftime('%Y') }.each do |year, year_conferences| %>
+    <% year_conferences.group_by {|c| c.start_date.strftime('%b') }.each do |month, month_conferences| %>
+      <h2 class="conf-list__month"><%= month %> <%= year %></h2>
+      <% month_conferences.sort_by {|c| c.start_date.strftime('%e') }.each do |conf| %>
+        <li><%= partial(:'partials/conf-card', :locals => { :c => conf }) %></li>
       <% end %>
-    </li>
+    <% end %>
   <% end %>
 </ul>
 

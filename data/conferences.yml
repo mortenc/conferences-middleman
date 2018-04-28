@@ -84,3 +84,14 @@
   tags:
     - ux
     - research
+- title: 2019 conf
+  url: http://canux.io/
+  start_date: 2019-11-01
+  end_date: 2019-11-04
+  location: The year 2019
+  price: TBD
+  blurb: A four day showcase of modern experiebce design trends, shaped as Canada's premier annual UX event.
+  image: img-test.png
+  tags:
+    - ux
+    - research

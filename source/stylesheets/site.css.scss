@@ -40,16 +40,17 @@ body {
 }
 
 h1 {
-  font-size: ms(3);
-  line-height: $spacing-unit*5;
+  font-size: rem(36px);
+  line-height: $spacing-unit*2;
 }
 
 a {
   color: $oc-indigo-7;
+  transition: color ease-in-out .225s;
 
   &:focus,
   &:hover {
-    color: $oc-indigo-5;
+    color: $oc-indigo-9;
   }
 }
 
@@ -59,11 +60,35 @@ a {
   padding: $spacing-unit;
 }
 
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+
+  &__about {
+    font-size: rem(18px);
+    line-height: $spacing-unit*1.5;
+    color: $oc-gray-6;
+  }
+}
+
 .conf-list {
+  position: relative;
   padding: 0;
 
   li {
     list-style: none;
+  }
+
+  &__month {
+    position: absolute;
+    left: -($spacing-unit);
+    margin: 0;
+    transform-origin: left top;
+    transform: translate(-($spacing-unit*2), $spacing-unit*2) rotate(-90deg) translateX(-100%);
+    font-size: rem(12px);
+    font-weight: 300;
+    text-transform: uppercase;
   }
 }
 
@@ -76,7 +101,7 @@ a {
   padding: $spacing-unit*1.5 0;
   color: $oc-gray-9;
   border-bottom: 1px solid $oc-indigo-0;
-  transition: color ease-in-out .3s;
+  transition: color ease-in-out .225s;
 
   &::after {
     content: "";
@@ -86,9 +111,10 @@ a {
     right: 0;
     bottom: 0;
     z-index: -1;
-    transition: all ease-in-out .3s;
+    transition: all ease-in-out .225s;
     background: linear-gradient($oc-indigo-7, $oc-indigo-8);
     opacity: 0;
+    transform: translate3d($spacing-unit*2, 0, 0);
   }
 
   &__image {
@@ -103,7 +129,7 @@ a {
   }
 
   &__title {
-    font-size: ms(0);
+    font-size: $base-font-size;
     margin: 0;
     margin-bottom: rem(4px);
   }
@@ -149,7 +175,7 @@ a {
 
     &::after {
       opacity: 1;
-      transform: translate3d($spacing-unit, 0, 0);
+      //transform: translate3d($spacing-unit, 0, 0);
     }
   }
 }
