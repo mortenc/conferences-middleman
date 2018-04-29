@@ -1,4 +1,5 @@
 - title: Awwwards Conference
+  url: https://conference.awwwards.com/san-francisco
   start_date: 2018-05-10
   end_date: 2018-05-11
   location: San Francisco, USA
@@ -10,12 +11,13 @@
     - motion
     - ux
 - title: The Next Web Conference
+  url: https://thenextweb.com/conference/
   start_date: 2018-05-24
   end_date: 2018-05-25
   location: Amsterdam, NL
   price: $500-$560
   blurb: Predict, discuss and invent the future. Join 15,000 digital minds to shape what's next for your business.
-  image: img-test.png
+  image: 2018-tnw.png
   tags:
     - design
     - ux
@@ -26,7 +28,7 @@
   location: London, UK
   price: £495-£1,175
   blurb: UX London brings together the world’s leading design experts and practitioners.
-  image: img-test.png
+  image: 2018-ux-london.png
   tags:
     - design
     - ux
@@ -94,7 +96,7 @@
   image: img-test.png
   tags:
     - ux
-    - product management
+    - productmanagement
 - title: Enterprise UX
   url: https://rosenfeldmedia.com/eux2018/
   start_date: 2018-06-13
@@ -105,15 +107,82 @@
   image: img-test.png
   tags:
     - ux
-    - ux strategy
+    - strategy
 - title: Design Matters
   url: https://designmatters.io/
-  start_date: 2019-09-26
-  end_date: 2019-09-27
+  start_date: 2018-09-26
+  end_date: 2018-09-27
   location: Copenhagen, DEN
   price: €900 / $1115 / DKK6700
   blurb: Two days of exploring digital design - now and in the future.
   image: img-test.png
   tags:
     - ux
-    - digital design
+    - design
+- title: UX Week 2018
+  url: http://uxweek.com/
+  start_date: 2018-08-21
+  end_date: 2018-08-24
+  location: San Francisco, CA, USA
+  price: $2795
+  blurb: Adaptive Path's UX Week is the premier user experience conference, with a mix of inspiring talks from recognized thought leaders and hands-on workshops delivering takeaway skills.
+  image: img-test.png
+  tags:
+    - ux
+- title: Bump Festival 2018
+  url: https://bump-festival.be/2018/
+  start_date: 2018-06-22
+  end_date:
+  location: Kortrijk, BE
+  price: $25 - $45
+  blurb: Get your mind blown by illustrators, graphic designers, UX experts, creative coders and motiongraphers.
+  image: img-test.png
+  tags:
+    - ux
+    - illustration
+    - motion
+- title: Interaction 19 – Design in the Wild
+  url: https://interaction19.ixda.org/
+  start_date: 2019-02-04
+  end_date: 2019-02-10
+  location: Seattle, WA, USA
+  price: $1005 - $1200
+  blurb: Interaction Week 19 wants to reflect on how technology and design are shaping the world moving forward by building bridges across cultures, disciplines and industries to reach shared goals.
+  image: img-test.png
+  tags:
+    - ux
+    - ixd
+- title: UX Australia 2018
+  url: http://www.uxaustralia.com.au/conferences/uxaustralia-2018
+  start_date: 2018-08-28
+  end_date: 2018-08-31
+  location: Melbourne, AU
+  price: AU$800 - AU$1600
+  blurb: UX Australia is a 4 day conference about everything User Experience.
+  image: img-test.png
+  tags:
+    - ux
+- title: Interact 2019
+  url: http://interact2019.org/
+  start_date: 2019-09-02
+  end_date: 2019-09-06
+  location: Paphos, Cypres
+  price: TBC
+  blurb: The 17th IFIP TC.13 International Conference on Human-Computer Interaction.
+  image: img-test.png
+  tags:
+    - ux
+    - hci
+    - ixd
+- title: An Event Apart - San Francisco
+  url: https://aneventapart.com/event/san-francisco-2018
+  start_date: 2018-12-10
+  end_date: 2018-12-12
+  location: San Francisco, CA, USA
+  price: $600 - $1475
+  blurb: Two days of sessions from 12 speakers with intense focus on digital design, UX, content, code, and more.
+  image: img-test.png
+  tags:
+    - ux
+    - design
+    - content
